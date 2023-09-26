@@ -1,5 +1,3 @@
-# Springboot Oauth2 Server Project
-
 ## About
 This is an prototype of Oauth2 Server build using Springboot 2*, the target about this project for :
 - Do Auhtentication & Authorization the Resource Server
