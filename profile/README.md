@@ -5,17 +5,19 @@ This is an prototype of Oauth2 Server build using Springboot 2*, the target abou
 - Easy to use and integration for Management Oauth Server and Resource client want to Authentication & Authorization.
 
 ## Oauth Server Features
-- Web CPanel Admin for OAuth Server
-- Management Role for OAuth Server
-- Management User for OAuth Server
-- Management Resource (Add, Edit, Delete, Limmit by email)
-- Management Resource Client (Add, Edit, Delete, Limmit by Resource)
-- Management User for Resource Client (Add, Edit, Delete, Limmit by Resource Client)
-- Email Verification for register new user
-- Management Log User Activity  on Resource Client
-- Provide Authentication & Authorization API for user want to login into Resource client
-- Provide Register `new user` or `existing user` API
-- Provide Loging API for Resource client
+- **Web CPanel Admin** for OAuth Server
+- **Management Role** for OAuth Server
+- **Management User** for OAuth Server
+- **Management Resource** (`CRUD`, `Limmit by email`)
+- **Management Resource Client** (`CRUD`, `Limmit by Resource`)
+- **Management User for Resource Client** (`CRUD`, `Limmit by Resource Client`,`Multiple Login`)
+- **Resource-client authorization** : `resource-id` `client-id` `client-secreet` `code_challanger` `signature-key` `grand-type` 
+- **Resource-client authentication** : `username` `password`
+- **Email Verification** for register new user
+- **Management Log User Activity**  on Resource Client
+- **Provide Authentication & Authorization API** for user want to login into Resource client
+- **Provide Register new user or existing user API**
+- **Provide Loging API** for Resource client
 
 ## Oauth Server Rules for Resource client Integration
 - Register Resource 
