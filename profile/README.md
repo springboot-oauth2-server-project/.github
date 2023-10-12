@@ -4,55 +4,27 @@ This is an prototype of Oauth2 Server build using Springboot 2*, the target abou
 - This Oauth Server will support with multi tech resource server likes (Springboot, Go, Js, Laravel, etc).
 - Easy to use and integration for Management Oauth Server and Resource client want to Authentication & Authorization.
 
-## Oauth Server Features
-- **Web CPanel Admin** for OAuth Server
-- **Management Role** for OAuth Server
-- **Management User** for OAuth Server
-- **Management Resource** (`CRUD`, `Limmit by email`)
-- **Management Resource Client** (`CRUD`, `Limmit by Resource`)
-- **Management User for Resource Client** (`CRUD`, `Limmit by Resource Client`,`Multiple Login`)
-- **Resource-client authorization** : `resource-id` `client-id` `client-secreet` `code_challanger` `signature-key` `grand-type` 
-- **Resource-client authentication** : `username` `password`
-- **Email Verification** for register new user
-- **Management Log User Activity**  on Resource Client
-- **Provide Authentication & Authorization API** for user want to login into Resource client
-- **Provide Register new user or existing user API**
-- **Provide Loging API** for Resource client
+## Features
+[Oauth2 Server Features](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/features.md/)
 
-## Oauth Server Rules for Resource client Integration
-- Register Resource 
-- Register Resource Client
-- Register User for mapping into Resource Client
-- 3 Step for Authentication & Authorization
-	- Verify Resource Client
-	- Verify User
-	- Get Athorization Token
-- Resource client loging to Oauth Server	
+## Technologies
+- [Oauth2 (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-oauth2.md/)
+- [Pos (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-pos.md/)
+- [Promo (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-promo.md/)
+- [Point (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-point.md/)
 
-## Oauth Server Tech Stack
-### Frontend
-- *Language* : `JS`
-- *Librarry* : `React.js` `CRA`
-- *Style* : `MUI` `theming`
-- *Translation* : `I18n`
-- *State* : `Redux`
-- *Containerization* : `Docker`
-- *CI/CD* : `Github` `Github Action` `Github Pipeline`
-- *Server* : `VPS`
+## Sequence
+- [Register User Resource Owner](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-register-user-resource-owner.md)
+- [](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-.md)
+- [](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-.md)
+- [](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-.md)
+- [](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-.md)
+- [](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-.md)
+- [](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-.md)
+- [](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-.md)
 
-### Backend
-- *Language* : `Java` `17`
-- *Librarry* : `Spring` `Spring Security`
-- *Framework* : `Springboot`
-- *Database* : `Postgres`
-- *Cache* : `Redis`
-- *Containerization* : `Docker`
-- *CI/CD* : `Github` `Github Action` `Github Pipeline`
-- *Server* : `VPS`
-
-
-## Features Plan (Min Map)
-![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/1b7023ab-a38c-48ab-8fe3-a702393646cf)
+## ERD
+[ERD](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/erd.md)
 
 
 ## Flow (Sequence)
@@ -68,11 +40,4 @@ This is an prototype of Oauth2 Server build using Springboot 2*, the target abou
 ### Register new user (Resource Client)
 ![register new user for resource client](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/eb4795c6-38ee-485c-bdea-b68a25fda4ac)
 
-## ERD
-![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/463dbac2-8875-481e-a07b-69379dd33158)
-
-
-
 # ... Under Development ...
-
-
