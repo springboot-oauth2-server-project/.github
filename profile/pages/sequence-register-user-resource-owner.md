@@ -1,4 +1,4 @@
-[Back] (https://github.com/springboot-oauth2-server-project)
+[Back](https://github.com/springboot-oauth2-server-project)
 
 # Sequence 
 ## Register User Resource Owner
