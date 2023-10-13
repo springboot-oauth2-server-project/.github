@@ -30,4 +30,8 @@ This is an prototype of Oauth2 Server build using Springboot 2*, the target abou
 - [ERD](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/erd.md)
 - [Example Data](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/model-design-example-data.md)
 
+## 5) Screenshoot of (OAUTH2 CPANEL)
+- [Role : Admin](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sc-oauth-cpanel-admin.md)
+- [Role : Resource Owner](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sc-oauth-cpanel-resourceowner.md)
+
 # ... Under Development ...
