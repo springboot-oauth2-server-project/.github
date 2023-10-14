@@ -42,6 +42,45 @@ This project have **simple OAUTH flow & Features** likes:
 - [Promo (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-promo.md/)
 - [Point (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-point.md/)
 
+## OAUTH API : Verify Resource API
+### CURL
+  ```bash
+  curl --location --request POST 'http://localhost:8991/v1/oauth/verify/resource/client' \
+--header 'x-oauth-token: YDR2u5ouxw0ne0c2nz8Spl3VZ3adJGpCbHpz' \
+--data-raw '{
+    "clientId": "fstTysjNpkNtNGsLuSGVhvfmZEARogUaQEpG",
+    "clientSecreet": "lYFwVWQNSeWv120BgafwKEQwGLWBDewCdeVC" ,
+    "resourceId":"IdnKmJWVHZqhkWaeFzSvBezUHEdSzhGFwaDj"
+}'
+  ```
+  ```bash
+  {
+    "status": "200 OK",
+    "headers": "",
+    "body": {
+        "code": "2XX-15",
+        "message": "Verify Resource CLient Success",
+        "data": {
+            "key": "x-oauth-verified-resource-token",
+            "value": "KthFIEGgEqMUBy3w9x2woetZy6kkE9LJ6z8m"
+        }        
+    }
+}
+  ```
+### Http Message
+| Http Status | Status Code | Message |
+|--|--|--|
+| 200 OK | 2XX-15 | Verify Resource CLient Success |
+| 403 FORBIDDEN | 403-100-1 | x-oauth-token cannot be null or empty |
+| 403 FORBIDDEN | 403-100-2 | x-oauth-token is not valid! |
+| 403 FORBIDDEN | 403-100-3 | ClientId is not found on OAUTH Server! |
+| 403 FORBIDDEN | 403-100-4 | ClientSecreet is wrong! |
+| 403 FORBIDDEN | 403-100-5 | ClientId has been non active! |
+| 403 FORBIDDEN | 403-100-6 | ClientId has been expired! |
+| 403 FORBIDDEN | 403-100-7 | ResourceId is not found on OAUTH Server! |
+| 403 FORBIDDEN | 403-100-8 | ClientId is not allow to accessing this Resource : {resource name} |
+
+
 
 
 
