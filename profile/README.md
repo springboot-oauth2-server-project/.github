@@ -58,19 +58,20 @@ This project have **simple OAUTH flow & Features** likes:
     "status": "200 OK",
     "headers": "",
     "body": {
-        "code": "2XX-15",
-        "message": "Verify Resource CLient Success",
+        "code": "200-100-1",
+        "message": "Verify resource & client success",
         "data": {
             "key": "x-oauth-verified-resource-token",
-            "value": "KthFIEGgEqMUBy3w9x2woetZy6kkE9LJ6z8m"
-        }        
+            "value": "oFAcFmWl1Zrn9EBen3LQsBYHQpqbVxblGQi4"
+        },
+        "server": null
     }
 }
   ```
 ### Http Message
 | Http Status | Status Code | Message |
 |--|--|--|
-| 200 OK | 2XX-15 | Verify Resource CLient Success |
+| 200 OK | 200-100-1 | Verify resource & client success |
 | 403 FORBIDDEN | 403-100-1 | x-oauth-token cannot be null or empty |
 | 403 FORBIDDEN | 403-100-2 | x-oauth-token is not valid! |
 | 403 FORBIDDEN | 403-100-3 | ClientId is not found on OAUTH Server! |
