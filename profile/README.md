@@ -50,7 +50,8 @@ This project have **simple OAUTH flow & Features** likes:
 --data-raw '{
     "clientId": "fstTysjNpkNtNGsLuSGVhvfmZEARogUaQEpG",
     "clientSecreet": "lYFwVWQNSeWv120BgafwKEQwGLWBDewCdeVC" ,
-    "resourceId":"IdnKmJWVHZqhkWaeFzSvBezUHEdSzhGFwaDj"
+    "resourceId":"IdnKmJWVHZqhkWaeFzSvBezUHEdSzhGFwaDj",
+    "username": "client"
 }'
   ```
   ```bash
