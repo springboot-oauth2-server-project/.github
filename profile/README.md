@@ -133,8 +133,8 @@ curl --location --request POST 'http://localhost:8991/v1/oauth/verify/user' \
 ### Docker Image on Dockerhub.com
 - [OAuth Frontend](https://hub.docker.com/r/denitiawan/oauth2-web)
 - [OAuth Backend](https://hub.docker.com/r/denitiawan/oauth2-backend)
-- [Resource Example](https://hub.docker.com/r/denitiawan/oauth2-resource-example)
-- [Client Example](https://hub.docker.com/r/denitiawan/oauth2-client-example)
+- [Resource Example](https://hub.docker.com/r/denitiawan/resource-client)
+- [Client Example](https://hub.docker.com/r/denitiawan/resource-backend)
 
 ### Docker Compose
 ```bash
