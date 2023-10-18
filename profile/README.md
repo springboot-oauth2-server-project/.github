@@ -142,4 +142,3 @@ curl --location --request POST 'http://localhost:8991/v1/oauth/verify/user' \
 | oauth2-resource-springboot | example springboot backend project as an resource | https://github.com/springboot-oauth2-server-project/oauth2-resource-springboot | private |
 | oauth2-resource-go | example go backend project as an resource | https://github.com/springboot-oauth2-server-project/oauth2-resource-go | private |
 
-# ... Under Development ...
