@@ -1,48 +1,33 @@
 ## About
-OAUTH is an open authorization for allowing user can login & access into many applications with single user data. 
+This project is an example of OAuth project. for allowing single user data, can login to 1 or many resource (application).
+also this project can manage, resource, client and user.
 
-## Examples
-- I have **google account**, and iam using that account for login & access into **fb, ig, twitter** applications. 
-- how **google** can handle it?
-- because **fb, ig, twitter** already registered & implements the **OAUTH Googles** on theirs project (backend & frontends)
-- so (fb, ig, twitter) can let google for authenticate and authorize every user wants to login into **fb, ig, twitter**.
-
-So iam create this project iam called **Springboot OAUTH2 Server Project** for try to implements simple **OAUTH** on my applications.
-
-This project have **simple OAUTH flow & Features** likes:
-- **OAUTH2 WEb CPANEL**, for managements datas **(Admin & Resource)**
-- **OAUTH APIs** for **Verification Resource** & **Verification User**
-
-## OAUTH CPANEL : Features
+## Features Plan
 [Oauth2 Server Features](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/features.md/)
-  
-## OAUTH CPANEL : Screenshoot
-- [Role : Admin](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sc-oauth-cpanel-admin.md)
-- [Role : Resource Owner](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sc-oauth-cpanel-resourceowner.md)
 
-## OAUTH FLow : Sequence of Authenticate & Authorization
-- [Frontend request login to backend](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/seq-oauth2-flow.md)
-- [Backend request verify resource to oauth server](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/seq-oauth2-flow.md)
-- [Backend request verify user to oauth server](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/seq-oauth2-flow.md)
-- [Frontend request view dashboard to backend](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/seq-oauth2-flow.md)
+# Context 
+![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/9e73c681-364f-4d04-bbfb-25b73323cd82)
 
-## OAUTH CPANEL : Sequence of CRUD
+# Data
+![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/bb8ef2b4-1969-4096-a14a-9058948608d4)
+
+# Container
+![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/b2a25b2f-ffe4-4f49-a71d-ba11c354b5d0)
+
+# Sequence of Authentication & Authorization
+[Sequence of Authentication & Authorization](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/seq-oauth2-flow.md)
+
+# Sequence of CRUD on OAuth App
 - [Admin Register new User (Resource Owner)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sequence-register-user-resource-owner.md)
 - [Admin Register new User (Client)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/seq-admin-reg-new-user-client.md)
 - [(Resource Owner) Register new Resource ](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/seq-resource-owner-reg-new-resource.md)
 - [(Resource Owner) Register new Client ](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/seq-resource-owner-regitster-new-client.md)
 
-## OAUTH CPANEL : Model & Design
-- [ERD](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/erd.md)
-- [Example Data](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/model-design-example-data.md)
+# Screenshoot of OAuth App
+- [Role : Admin](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sc-oauth-cpanel-admin.md)
+- [Role : Resource Owner](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sc-oauth-cpanel-resourceowner.md)
 
-## Technologies
-- [Oauth2 (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-oauth2.md/)
-- [Pos (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-pos.md/)
-- [Promo (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-promo.md/)
-- [Point (Frontend-Backend)](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/tech-point.md/)
-
-## OAUTH API : Verify Resource API
+# API : Verify Resource
 ### CURL
   ```bash
   curl --location --request POST 'http://localhost:8991/v1/oauth/verify/resource/client' \
@@ -86,7 +71,7 @@ This project have **simple OAUTH flow & Features** likes:
 | 403 FORBIDDEN | 403-100-12 | You have request access still not finished the OAUTH flow, please finish this OAUTH Flow (VERIFY_RESOURCE -> VERIFY_USER) |
 | 403 FORBIDDEN | 403-100-13 | ClientId & verifiyResourceToken is already exist |
 
-## OAUTH API : Verify User API
+# API : Verify User 
 ### CURL
   ```bash
 curl --location --request POST 'http://localhost:8991/v1/oauth/verify/user' \
@@ -130,7 +115,7 @@ curl --location --request POST 'http://localhost:8991/v1/oauth/verify/user' \
 
 
 
-### Github Repositories
+# Github Repositories
 | Name | Desc | Url | Visibility |
 |--|--|--|--|
 | .github | Short Info & About Project | https://github.com/springboot-oauth2-server-project/.github | public |
@@ -141,4 +126,3 @@ curl --location --request POST 'http://localhost:8991/v1/oauth/verify/user' \
 | oauth2-client-react | example react.js frontend project as an client | https://github.com/springboot-oauth2-server-project/oauth2-client-react| private |
 | oauth2-resource-springboot | example springboot backend project as an resource | https://github.com/springboot-oauth2-server-project/oauth2-resource-springboot | private |
 | oauth2-resource-go | example go backend project as an resource | https://github.com/springboot-oauth2-server-project/oauth2-resource-go | private |
-
