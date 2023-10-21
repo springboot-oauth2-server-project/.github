@@ -2,15 +2,17 @@
 
 ## Verify User API
 ### CURL
-  ```bash
+- Request
+```bash
 curl --location --request POST 'http://localhost:8991/v1/oauth/verify/user' \
---header 'x-oauth-verified-resource-token: FIor4BECZRteDPf2prgDA3CShnDJ0OMHBEk0' \
+--header 'x-oauth-verified-resource-token: vvv.vvv.vvv' \
 --data-raw '{        
     "username": "client",
     "password": "admin"     
 }'
-  ```
-  ```bash
+```
+- Response
+```bash
 {
     "status": "200 OK",
     "headers": "",
@@ -20,11 +22,11 @@ curl --location --request POST 'http://localhost:8991/v1/oauth/verify/user' \
         "data": {
             "authorizationToken": {
                 "key": "x-oauth-authorization-token",
-                "value": "authorization.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQiLCJleHAiOjE2OTczNjM5MjF9.XkR6cg8e-61eRaD-PC1486SvR0roXcZ9iaOHMVsPLRX_uTpONeFp6KbtWoaOF33pXTCcq2tUiOXD2yoAXBOX5g"
+                "value": "aaa.aaa.aaa"
             },
             "refreshToken": {
                 "key": "x-oauth-refresh-token",
-                "value": "refresh.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGllbnQiLCJleHAiOjE2OTczNjM5ODF9.3jlBMFvffKU-6MXPTktMl8XE3vYkjQvLxBwRWQVnIKp6bLqvFujq1ND7njmupa_Q2VAvOtJxrRH3rVrx68cfIQ"
+                "value": "rrr.rrr.rrr"
             },
             "username": "client"
         }        
