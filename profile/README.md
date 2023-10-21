@@ -39,11 +39,15 @@
 - [Verify Token](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/api-verify-token.md)  
 - [Register or Update user](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/api-registration-update-user.md)
 
-### OAuth2 Configuration 
-- [OAuth2 Config on Resource](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/config-reasource.md)
+### Resource 
+- [ Resource Config ](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/config-reasource.md)
+- [ Resource Screenshoot ](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/sc-resource-web.md)
 
 ## Github Repository
 All [Github Repositories](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/github-repository.md) about `OAuth2` & `Resource` `Client` project
+
+## Insight
+![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/e637630b-ac11-46ce-b0a4-adfe5e4d2e0e)
 
 ## Status
 |Task|Assign|Start Date|End Date|Status|
@@ -52,4 +56,4 @@ All [Github Repositories](https://github.com/springboot-oauth2-server-project/.g
 |Create OAuth2 Web|[denitiawan](https://github.com/denitiawan)|29/09/2023|16/10/2023|Done|
 |Create Resource backend|[denitiawan](https://github.com/denitiawan)|17/10/2023|21/10/2023|Done|
 |Create Resource client|[denitiawan](https://github.com/denitiawan)|17/10/2023|21/10/2023|Done|
-|Create documentation|[denitiawan](https://github.com/denitiawan)|21/10/2023|21/10/2023|Inprogress|
+|Create documentation|[denitiawan](https://github.com/denitiawan)|21/10/2023|21/10/2023|Done|
