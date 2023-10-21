@@ -36,9 +36,9 @@ curl --location 'http://localhost:8991/v1/oauth/verify/authorization' \
 ### Message & Validation
 | Http Status | Status Code | Message |
 |--|--|--|
-| 200 OK | 200-200-1 | verify Authorization Token success|
-| 403 FORBIDDEN | 403-200-1 | x-oauth-token cannot be null or empty |
-| 403 FORBIDDEN | 403-200-2 | Authorization Token cannot be null or empty |
-| 403 FORBIDDEN | 403-200-3 | Authorization Token has been expired |
-| 403 FORBIDDEN | 403-200-4 | Authorization Token has badformat |
+| 200 OK | 200-150-1 | verify Authorization Token success|
+| 403 FORBIDDEN | 403-150-1 | x-oauth-token cannot be null or empty |
+| 403 FORBIDDEN | 403-150-2 | Authorization Token cannot be null or empty |
+| 403 FORBIDDEN | 403-150-3 | Authorization Token has been expired |
+| 403 FORBIDDEN | 403-150-4 | Authorization Token has badformat |
 
