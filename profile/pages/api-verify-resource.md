@@ -2,17 +2,19 @@
 
 ## Verify Resource API
 ### CURL
-  ```bash
+- Request
+```bash
   curl --location --request POST 'http://localhost:8991/v1/oauth/verify/resource/client' \
---header 'x-oauth-token: YDR2u5ouxw0ne0c2nz8Spl3VZ3adJGpCbHpz' \
+--header 'x-oauth-token: iii.iii.iii' \
 --data-raw '{
-    "clientId": "fstTysjNpkNtNGsLuSGVhvfmZEARogUaQEpG",
-    "clientSecreet": "lYFwVWQNSeWv120BgafwKEQwGLWBDewCdeVC" ,
-    "resourceId":"IdnKmJWVHZqhkWaeFzSvBezUHEdSzhGFwaDj",
+    "clientId": "xxxx.xxxx.xxxx,
+    "clientSecreet": "yyyy.yyyy.yyyy" ,
+    "resourceId":"zzz.zzzz.zzz",
     "username": "client"
 }'
-  ```
-  ```bash
+```
+- Response
+```bash
   {
     "status": "200 OK",
     "headers": "",
@@ -21,11 +23,11 @@
         "message": "Verify resource & client success",
         "data": {
             "key": "x-oauth-verified-resource-token",
-            "value": "oFAcFmWl1Zrn9EBen3LQsBYHQpqbVxblGQi4"
+            "value": "vvv.vvv.vvv"
         }        
     }
 }
-  ```
+```
 ### Message & Validation
 | Http Status | Status Code | Message |
 |--|--|--|
