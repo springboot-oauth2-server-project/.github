@@ -1,5 +1,5 @@
 ## About
-**Springboot OAuth Project**, is an example of OAuth Server Project, for do **authenticate & authorize** the user, and then user can login & access into the resources who already **register & implement the OAuth2 Flow** on their projects.
+**Springboot OAuth2 Project**, is an example of OAuth2 Server Project, for do **authenticate & authorize** the user, and then user can login & access into the resources who already **register & implement the OAuth2 Flow** on their projects.
 
 ### Context 
 ![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/9e73c681-364f-4d04-bbfb-25b73323cd82)
