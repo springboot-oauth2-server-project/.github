@@ -1,5 +1,5 @@
 ## About
-**Springboot OAuth Project** is an example of OAuth Server Project, this project was build using springboot 2.7*.
+**Springboot OAuth Project**, is an example of OAuth Server Project, for do **authenticate & authorize** the user, and then user can login & access into the resources who already **register & implement the OAuth2 Flow** on their projects.
 
 ### Context 
 ![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/9e73c681-364f-4d04-bbfb-25b73323cd82)
@@ -47,7 +47,7 @@
 All [Github Repositories](https://github.com/springboot-oauth2-server-project/.github/blob/main/profile/pages/github-repository.md) about `OAuth2` & `Resource` `Client` project
 
 ## Insight
-![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/e637630b-ac11-46ce-b0a4-adfe5e4d2e0e)
+![image](https://github.com/springboot-oauth2-server-project/.github/assets/11941308/00dd708c-6f35-42f5-a536-15eb5463688a)
 
 ## Status
 |Task|Assign|Start Date|End Date|Status|
